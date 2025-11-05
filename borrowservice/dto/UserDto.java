@@ -1,0 +1,19 @@
+package com.ncu.library.borrowservice.dto;
+
+public class UserDto {
+    private Integer id;
+    private String userName;
+    private String userLocation;
+
+    public UserDto() {}
+    // Getters & Setters
+    public Integer getId() { return id; }
+    public void setId(Integer id) { this.id = id; }
+
+    public String getUserName() { return userName; }
+    public void setUserName(String userName) { this.userName = userName; }
+
+    public String getUserLocation() { return userLocation; }
+    public void setUserLocation(String userLocation) { this.userLocation = userLocation; }
+}
+
